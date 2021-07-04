@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Lebron James",
+    "role": "Shooting Guard",
+    "age": 36,
+    "active": true
+  },
+  {
+    "id": 2,
+    "name": "Michael Jordan",
+    "role": "Shooting Guard",
+    "age": 56,
+    "active": false
+  },
+  {
+    "id": 3,
+    "name": "Gary Payton",
+    "role": "Point Guard",
+    "age": 46,
+    "active": false
+  }
+]
