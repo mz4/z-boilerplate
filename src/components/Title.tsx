@@ -32,6 +32,7 @@ const Title = ({ players, deletePlayer }: IProps) => {
           <td>{player.active ? "yes" : "no"}</td>
           <td>
             <button
+              data-testid="deleteplayer"
               onClick={(event: React.MouseEvent<HTMLElement>) =>
                 deletePlayer(player.id)
               }

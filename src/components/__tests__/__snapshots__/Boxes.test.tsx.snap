@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Boxes should render component 1`] = `
+<div>
+  <div
+    class="Box"
+    data-testid="boxes"
+  >
+    <div
+      class="Dropdown"
+    >
+      <button
+        class="dropbtn"
+        data-testid="openMenuButton"
+      >
+        Menu
+      </button>
+      <div
+        class="dropdown-content"
+      />
+    </div>
+    <div
+      class="Text"
+    >
+      Ciao
+    </div>
+  </div>
+  <div
+    class="Box"
+  >
+    <div
+      class="Text"
+    >
+      Ciao
+    </div>
+  </div>
+</div>
+`;

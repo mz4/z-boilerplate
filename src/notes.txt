@@ -1,0 +1,25 @@
+Jest expect:
+
+toBeNull
+toBeInTheDocument
+toBeDisabled
+toBeEnabled
+toBeEmpty
+toBeEmptyDOMElement
+toBeInvalid
+toBeRequired
+toBeValid
+toBeVisible
+toContainElement
+toContainHTML
+toHaveAttribute
+toHaveClass
+toHaveFocus
+toHaveFormValues
+toHaveStyle
+toHaveTextContent
+toHaveValue
+toHaveDisplayValue
+toBeChecked
+toBePartiallyChecked
+toHaveDescription

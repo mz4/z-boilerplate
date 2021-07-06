@@ -1,0 +1,35 @@
+.Box {
+  background-color: indigo;
+  border: 1px solid #ccc;
+  color: #f3f3f3;
+  display: block;
+  height: 300px;
+  margin: 16px;
+  padding: 16px;
+  position:relative;
+  width: 300px;
+}
+
+.Text {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 300px;
+}
+
+.Dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}

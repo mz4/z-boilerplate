@@ -9,9 +9,10 @@ interface IProps {
     active: boolean;
   }[];
   setPlayer: (player: any) => void;
+  closeModal: () => void;
 }
 
-const RenderForm: React.FC<IProps> = ({ players, setPlayer }) => {
+const RenderForm: React.FC<IProps> = ({ players, setPlayer, closeModal }) => {
   const [input, setInput] = useState({
     id: "",
     name: "",
@@ -30,17 +31,23 @@ const RenderForm: React.FC<IProps> = ({ players, setPlayer }) => {
   };
 
   const formStyles: CSSProperties = {
-    backgroundColor: "#f2f2f2",
-    display: "block",
-    margin: "1rem",
-    padding: "1rem",
-    width: "30%"
+
   };
 
   const containerStyles: CSSProperties = {
     padding: "1rem",
     textAlign: "left",
     fontSize: "14px",
+    backgroundColor: "#f2f2f2",
+    display: "block",
+    margin: "1rem",
+    zIndex: 1,
+    position: "fixed",
+    top: "40px",
+    left: "30%",
+    width: "630px",
+    height: "290px",
+    border: "5px solid #ccc",
   };
 
   const submitButtonStyle: CSSProperties = {
@@ -115,8 +122,13 @@ const RenderForm: React.FC<IProps> = ({ players, setPlayer }) => {
             placeholder="Age"
           />
         </div>
-        <input style={submitButtonStyle} onClick={handleSubmit} type="submit" />
+        <input 
+          style={submitButtonStyle} 
+          onClick={handleSubmit} 
+          type="submit" 
+        />
       </form>
+      <button onClick={closeModal}>Close</button>
     </div>
   );
 };

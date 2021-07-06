@@ -1,0 +1,152 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should match snapshot 1`] = `
+<div>
+  <div
+    class="Box"
+    data-testid="boxes"
+  >
+    <div
+      class="Dropdown"
+    >
+      <button
+        class="dropbtn"
+        data-testid="openMenuButton"
+      >
+        Menu
+      </button>
+      <div
+        class="dropdown-content"
+      />
+    </div>
+    <div
+      class="Text"
+    >
+      Ciao
+    </div>
+  </div>
+  <div
+    class="Box"
+  >
+    <div
+      class="Text"
+    >
+      Ciao
+    </div>
+  </div>
+  <div>
+    <h2>
+      This is a title
+    </h2>
+    <button>
+      Increase Number 
+      <span>
+        0
+      </span>
+    </button>
+    <table>
+      <thead>
+        <tr>
+          <th>
+            Id
+          </th>
+          <th>
+            Name
+          </th>
+          <th>
+            Role
+          </th>
+          <th>
+            Age
+          </th>
+          <th>
+            Active
+          </th>
+          <th>
+            Action
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            1
+          </td>
+          <td>
+            Lebron James
+          </td>
+          <td>
+            Shooting Guard
+          </td>
+          <td>
+            36
+          </td>
+          <td>
+            yes
+          </td>
+          <td>
+            <button
+              data-testid="deleteplayer"
+            >
+              Delete
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            2
+          </td>
+          <td>
+            Michael Jordan
+          </td>
+          <td>
+            Shooting Guard
+          </td>
+          <td>
+            56
+          </td>
+          <td>
+            no
+          </td>
+          <td>
+            <button
+              data-testid="deleteplayer"
+            >
+              Delete
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            3
+          </td>
+          <td>
+            Gary Payton
+          </td>
+          <td>
+            Point Guard
+          </td>
+          <td>
+            46
+          </td>
+          <td>
+            no
+          </td>
+          <td>
+            <button
+              data-testid="deleteplayer"
+            >
+              Delete
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <button
+    data-testid="addPlayer"
+  >
+    Add Player
+  </button>
+</div>
+`;

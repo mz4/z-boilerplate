@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Title should match the snapshot 1`] = `
+<div>
+  <div>
+    <h2>
+      This is a title
+    </h2>
+    <button>
+      Increase Number 
+      <span>
+        0
+      </span>
+    </button>
+    <table>
+      <thead>
+        <tr>
+          <th>
+            Id
+          </th>
+          <th>
+            Name
+          </th>
+          <th>
+            Role
+          </th>
+          <th>
+            Age
+          </th>
+          <th>
+            Active
+          </th>
+          <th>
+            Action
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            1
+          </td>
+          <td>
+            Lebron James
+          </td>
+          <td>
+            Shooting Guard
+          </td>
+          <td>
+            36
+          </td>
+          <td>
+            yes
+          </td>
+          <td>
+            <button
+              data-testid="deleteplayer"
+            >
+              Delete
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;
