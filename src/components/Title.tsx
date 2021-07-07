@@ -47,8 +47,10 @@ const Title = ({ players, deletePlayer }: IProps) => {
 
   return (
     <div>
-      <h2>This is a title</h2>
-      <button onClick={changeNum}>
+      <h2 data-testid="title">This is a title</h2>
+      <button 
+        data-testid="increase"
+        onClick={changeNum}>
         Increase Number <span>{num}</span>
       </button>
       <table>
