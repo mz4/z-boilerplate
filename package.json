@@ -7,7 +7,9 @@
     "webpack": "webpack",
     "start": "cross-env NODE_ENV=development webpack serve --config webpack.config.js",
     "test": "jest",
-    "cypress:open": "cypress open"
+    "cypress:open": "cypress open",
+    "prettier:check": "prettier --check .",
+    "prettier:write": "prettier --write ."
   },
   "keywords": [],
   "author": "",
