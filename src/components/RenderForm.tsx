@@ -30,9 +30,7 @@ const RenderForm: React.FC<IProps> = ({ players, setPlayer, closeModal }) => {
     fontSize: "18px",
   };
 
-  const formStyles: CSSProperties = {
-
-  };
+  const formStyles: CSSProperties = {};
 
   const containerStyles: CSSProperties = {
     padding: "1rem",
@@ -66,17 +64,17 @@ const RenderForm: React.FC<IProps> = ({ players, setPlayer, closeModal }) => {
 
   const handleSubmit = (e: any) => {
     e.preventDefault();
-    if(!input.name || !input.age) return
+    if (!input.name || !input.age) return;
 
     setPlayer([
-        ...players,
-        {
-          id: players.length + 1,
-          name: input.name,
-          role: input.role,
-          age: parseInt(input.age),
-          active: true
-        }
+      ...players,
+      {
+        id: players.length + 1,
+        name: input.name,
+        role: input.role,
+        age: parseInt(input.age),
+        active: true,
+      },
     ]);
 
     setInput({
@@ -86,7 +84,7 @@ const RenderForm: React.FC<IProps> = ({ players, setPlayer, closeModal }) => {
       age: "",
       active: "",
     });
-}
+  };
 
   return (
     <div style={containerStyles}>
@@ -122,11 +120,7 @@ const RenderForm: React.FC<IProps> = ({ players, setPlayer, closeModal }) => {
             placeholder="Age"
           />
         </div>
-        <input 
-          style={submitButtonStyle} 
-          onClick={handleSubmit} 
-          type="submit" 
-        />
+        <input style={submitButtonStyle} onClick={handleSubmit} type="submit" />
       </form>
       <button onClick={closeModal}>Close</button>
     </div>
