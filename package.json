@@ -2,18 +2,18 @@
   "name": "matteo-boilerplate",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.tsx",
   "scripts": {
-    "webpack": "webpack",
     "start": "cross-env NODE_ENV=development webpack serve --config webpack.config.js",
+    "webpack": "webpack",
     "test": "jest",
     "cypress:open": "cypress open",
     "prettier:check": "prettier --check .",
     "prettier:write": "prettier --write ."
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Matteo <matteozaratti@gmail.com>",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.14.6",
     "@babel/node": "^7.14.7",
@@ -31,6 +31,7 @@
     "cross-env": "^7.0.3",
     "css-loader": "^5.2.6",
     "cypress": "^7.6.0",
+    "eslint-config-prettier": "^8.5.0",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.3.2",
     "image-webpack-loader": "^7.0.1",
@@ -50,5 +51,6 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "typescript": "^4.3.5"
-  }
+  },
+  "repository": "https://github.com/mz4/z-boilerplate.git"
 }
